@@ -4,6 +4,10 @@ FROM bgruening/galaxy-stable
 #COPY config/job_conf.xml /galaxy-central/config/job_conf.xml
 COPY local_tools /local_tools
 
+RUN sudo groupadd docker
+RUN sudo usermod -aG docker root
+RUN sudo usermod -aG docker galaxy
+
 WORKDIR /local_tools/galaxytools
 #RUN sudo service docker start
 #RUN sudo docker build -t sbc1 .
