@@ -20,7 +20,7 @@ git clone https://github.com/pablocarb/sbc-viscad.git
 git clone https://github.com/neilswainston/PlasmidGenieClient.git
 git clone https://github.com/neilswainston/sbc-assembly.git
 
-git clone ssh://gitlab@gitlab.cs.man.ac.uk:22222/SYNBIOCHEM/sbc-doe.git
+git clone https://github.com/pablocarb/sbc-doe.git
 # Add symbolic links
 cd sbc-doe
 ln -s ../doebase

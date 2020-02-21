@@ -6,20 +6,21 @@
      <tool file="/local_tools/galaxytools/doe2libtool_docker.xml" />
    </section>
   <section id="sbcparts" name="Parts design tools">
-    <tool file="/local_tools/galaxytools/plasmidInfo.xml" />
+    <tool file="/local_tools/galaxytools/plasmidinfotool_docker.xml" />
     <tool file="/local_tools/galaxytools/primertool.xml" />
     <tool file="/local_tools/galaxytools/mergePrimers.xml" />	 
-    <tool file="/local_tools/galaxytools/design2doetool.xml" />
   </section>
   <section id="sbcbuild" name="Build tools">
+     <tool file="/local_tools/galaxytools/plasmidgenietool.xml" />
   </section>
   <section id="sbclearn" name="Learn tools">
   </section>
    <section id="sbc9" name="SBC (standalone)">   
+    <tool file="/local_tools/galaxytools/design2doetool.xml" />
     <tool file="/local_tools/galaxytools/doe2libtool.xml" />
+    <tool file="/local_tools/galaxytools/plasmidInfo.xml" />
    </section>
    <section id="sbcdev9" name="SBC (dev)">
-     <tool file="/local_tools/galaxytools/plasmidgenietool.xml" />
      <tool file="/local_tools/galaxytools/primerplate.xml" />
      <tool file="/local_tools/galaxytools/lcr2tool.xml" />
     <tool file="/local_tools/galaxytools/plasmidwriter.xml" />	 
