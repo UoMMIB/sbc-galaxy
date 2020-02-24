@@ -6,7 +6,7 @@
      <tool file="/local_tools/galaxytools/doe2libtool_docker.xml" />
    </section>
   <section id="sbcparts" name="Parts design tools">
-    <tool file="/local_tools/galaxytools/plasmidinfotool_docker.xml" />
+    <tool file="/local_tools/galaxytools/plasmidinfotool.xml" />
     <tool file="/local_tools/galaxytools/primertool.xml" />
     <tool file="/local_tools/galaxytools/mergePrimers.xml" />	 
   </section>
