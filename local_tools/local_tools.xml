@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <toolbox monitor="true">
-  <label id="sbcdesign1" text="SYNBIOCHEM" />  
+  <label id="sbcdesign1" text="SYNBIOCHEM Pipeline" />  
   <section id="sbcdoe1" name="Design tools">
      <tool file="/local_tools/galaxytools/design2doetool_docker.xml" />
      <tool file="/local_tools/galaxytools/doe2libtool_docker.xml" />
@@ -15,16 +15,9 @@
   <section id="sbcparts1" name="Helper tools">
     <tool file="/local_tools/galaxytools/plasmidinfotool.xml" />
     <tool file="/local_tools/galaxytools/mergePrimers.xml" />	 
+    <tool file="/local_tools/galaxytools/ice2order.xml" />
   </section>
   <section id="sbclearn" name="Learn tools">
   </section>
-   <section id="sbc9" name="SBC (standalone)">   
-    <tool file="/local_tools/galaxytools/design2doetool.xml" />
-    <tool file="/local_tools/galaxytools/doe2libtool.xml" />
-    <tool file="/local_tools/galaxytools/plasmidInfo.xml" />
-   </section>
-   <section id="sbcdev9" name="SBC (dev)">
-    <tool file="/local_tools/galaxytools/ice2order.xml" />
-     <tool file="/local_tools/galaxytools/testTool.xml" />
-   </section>
+  <label id="glx" text="Galaxy ToolShed" />  
 </toolbox>
