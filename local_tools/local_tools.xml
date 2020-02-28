@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <toolbox monitor="true">
   <label id="sbcdesign1" text="SYNBIOCHEM" />  
-  <section id="sbcdoe" name="DoE tools">
+  <section id="sbcdoe1" name="Design tools">
      <tool file="/local_tools/galaxytools/design2doetool_docker.xml" />
      <tool file="/local_tools/galaxytools/doe2libtool_docker.xml" />
-   </section>
-  <section id="sbcbuild1" name="Build tools">
      <tool file="/local_tools/galaxytools/plasmidgenietool.xml" />
+     <tool file="/local_tools/galaxytools/plasmidwriter.xml" />	 
+     <tool file="/local_tools/galaxytools/strainwriter.xml" />
      <tool file="/local_tools/galaxytools/primertool.xml" />
      <tool file="/local_tools/galaxytools/primerplate.xml" />
      <tool file="/local_tools/galaxytools/enz_scrtool.xml" />
      <tool file="/local_tools/galaxytools/lcr2tool.xml" />
   </section>
-  <section id="sbcparts" name="Parts design tools">
+  <section id="sbcparts1" name="Helper tools">
     <tool file="/local_tools/galaxytools/plasmidinfotool.xml" />
     <tool file="/local_tools/galaxytools/mergePrimers.xml" />	 
   </section>
@@ -24,8 +24,6 @@
     <tool file="/local_tools/galaxytools/plasmidInfo.xml" />
    </section>
    <section id="sbcdev9" name="SBC (dev)">
-    <tool file="/local_tools/galaxytools/plasmidwriter.xml" />	 
-    <tool file="/local_tools/galaxytools/strainwriter.xml" />
     <tool file="/local_tools/galaxytools/ice2order.xml" />
      <tool file="/local_tools/galaxytools/testTool.xml" />
    </section>
