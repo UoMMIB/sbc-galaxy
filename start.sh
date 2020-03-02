@@ -1,6 +1,6 @@
 #!/bin/bash
 # Start Galaxy
-# Having issues with /var/run/docker.sock : changed permissions
+# I am having issues with /var/run/docker.sock : changed permissions
 
 USERID=`id -u`
 
