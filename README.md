@@ -1,6 +1,6 @@
 # sbc-galaxy
 
-SYNBIOCHEM Galaxy server that supports the design pipeline infrastructure.
+SYNBIOCHEM Galaxy server that supports the design pipeline infrastructure. Pablo Carbonell, SYNBIOCHEM, 2020.
 
 ## Installation
 
