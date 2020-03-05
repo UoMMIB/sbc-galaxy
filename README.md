@@ -29,7 +29,7 @@ Main scripts:
 
 Other scripts:
 
-``tweak.sh`` contains some commands that might be required to run at least once in order to install the Galaxy server in a new computer.
+* ``tweak.sh`` contains some commands that might be required to run at least once in order to install the Galaxy server in a new computer.
 
 A container running an ``nginx`` server is used in order to employ virtual domains.
 
