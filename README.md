@@ -23,9 +23,9 @@ Create account `galaxy` with following id details:
 
 Main scripts:
 
-``build.sh`` build the images and install the SBC repositories.
-``start.sh`` will start the galaxy server.
-``stop.sh`` will stop and remove the container of the server.
+* ``build.sh`` build the images and install the SBC repositories.
+* ``start.sh`` will start the galaxy server.
+* ``stop.sh`` will stop and remove the container of the server.
 
 Other scripts:
 
