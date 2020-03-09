@@ -34,3 +34,5 @@ Other scripts:
 A container running an ``nginx`` server is used in order to employ virtual domains.
 
 The Galaxy tools are in https://github.com/synbiochem/galaxytools. When possible, the tools are run within the ``sbc1`` container by Galaxy. For some apps, there were some issues and I have written directly the docker invocation in the tool. In the future, this should be unified and made more automated.
+
+Another issue is that some jobs that connect to ICE like plasmidGenie or plasmidWriter, etc use multithreading and the docker container might continue running if the job is killed from Galaxy. A better way of managing these jobs is necessary.
