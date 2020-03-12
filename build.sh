@@ -25,9 +25,11 @@ git clone https://github.com/pablocarb/sbc-doe.git
 cd sbc-doe
 ln -s ../doebase
 ln -s ../sbc-viscad viscad
-cd ..
+cd .. # sbc-doe
 
-cd ..
+cd .. # code
+
+ln -s code/sbc-assembly/assembly
 
 # Clone additional tools
 cd ..
@@ -36,3 +38,6 @@ cd ..
 
 # Start Galaxy
 sh start.sh
+
+# Start Galaxy after reboot
+cat crontab | crontab

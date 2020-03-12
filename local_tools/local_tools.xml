@@ -9,6 +9,7 @@
      <tool file="/local_tools/galaxytools/strainwriter.xml" />
      <tool file="/local_tools/galaxytools/primertool.xml" />
      <tool file="/local_tools/galaxytools/primerplate.xml" />
+     <tool file="/local_tools/galaxytools/getHtml.xml" />
      <tool file="/local_tools/galaxytools/enz_scrtool.xml" />
      <tool file="/local_tools/galaxytools/lcr2tool.xml" />
   </section>
