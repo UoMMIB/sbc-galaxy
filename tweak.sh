@@ -18,3 +18,6 @@ sudo usermod -aG docker galaxy
 sudo ln -s ${GALAXY}/sbc-galaxy/galaxy_storage /export
 sudo ln -s ${GALAXY}/sbc-galaxy/local_tools/
 sudo ln -s ${GALAXY}/sbc-galaxy/galaxy_storage/galaxy-central/
+
+#  Start Galaxy after reboot
+cat crontab | crontab
