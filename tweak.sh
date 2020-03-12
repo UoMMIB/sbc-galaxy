@@ -1,6 +1,6 @@
 #!/bin/bash
-# Some tweaks to be made after rebooting 
-# Maybe they are not necessary anymore
+# Some tweaks to be made after first installation/rebooting 
+# Galaxy is assumed to be run from user 
 
 # Galaxy home
 export GALAXY=${PWD}
