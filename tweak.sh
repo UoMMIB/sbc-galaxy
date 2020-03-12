@@ -21,3 +21,6 @@ sudo ln -s ${GALAXY}/sbc-galaxy/galaxy_storage/galaxy-central/
 
 #  Start Galaxy after reboot
 cat crontab | crontab
+
+# Change docker permissions after rebooting
+sudo chmod 777 /var/run/docker.soc
