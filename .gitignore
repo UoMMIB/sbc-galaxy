@@ -127,3 +127,16 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# galaxy_storage
+galaxy_storage/.distribution_config
+galaxy_storage/galaxy-central/display_applications
+galaxy_storage/tool_deps
+galaxy_storage/galaxy-central/tool-data
+galaxy_storage/galaxy-central/tools
+galaxy_storage/galaxy-central/database
+galaxy_storage/galaxy-central/requirements.txt
+galaxy_storage/welcome_bass.css
+galaxy_storage/welcome_sbc.png
+galaxy_storage/welcome.html
+galaxy_storage/postgresql/

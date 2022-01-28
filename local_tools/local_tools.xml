@@ -12,6 +12,8 @@
      <tool file="/local_tools/galaxytools/getHtml.xml" />
      <tool file="/local_tools/galaxytools/enz_scrtool.xml" />
      <tool file="/local_tools/galaxytools/lcr2tool.xml" />
+     <tool file="/local_tools/galaxytools/lcr2toolv2.xml" />
+     <tool file="/local_tools/galaxytools/plateupload.xml" />
   </section>
   <section id="sbcparts1" name="Helper tools">
     <tool file="/local_tools/galaxytools/plasmidinfotool.xml" />

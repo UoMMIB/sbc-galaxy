@@ -5,7 +5,7 @@ docker build -t sbcglx .
 
 # Clone sbc tools
 cd local_tools
-git clone https://github.com/synbiochem/galaxytools.git
+git clone https://github.com/UoMMIB/galaxytools.git
 
 # Build SBC tools image
 cd galaxytools
@@ -18,7 +18,7 @@ git clone https://github.com/pablocarb/doebase.git
 git clone https://github.com/pablocarb/sbc-viscad.git
 
 git clone https://github.com/neilswainston/PlasmidGenieClient.git
-git clone https://github.com/neilswainston/sbc-assembly.git
+git clone https://github.com/UoMMIB/sbc-assembly.git
 
 git clone https://github.com/pablocarb/sbc-doe.git
 # Add symbolic links

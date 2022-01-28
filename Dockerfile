@@ -2,7 +2,7 @@ FROM bgruening/galaxy-stable
 
 #COPY config/tool_conf.xml /galaxy-central/config/local_tools.xml
 #COPY config/job_conf.xml /galaxy-central/config/job_conf.xml
-COPY local_tools /local_tools
+#COPY local_tools /local_tools
 
 RUN sudo groupadd docker
 RUN sudo usermod -aG docker root
